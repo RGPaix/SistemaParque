@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="360.0" prefWidth="550.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.TelaAtracaoController">
+    <children>
+        <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="-1.0" prefWidth="-1.0" VBox.vgrow="ALWAYS">
+            <children>
+                <Label fx:id="labelAtracao" layoutX="96.0" layoutY="64.0" text="Escolha a atração:" />
+                <ChoiceBox fx:id="choiceAtracao" layoutX="208.0" layoutY="60.0" prefHeight="25.0" prefWidth="241.0" />
+                <ListView fx:id="lviewAtracao" layoutX="85.0" layoutY="131.0" prefHeight="109.0" prefWidth="381.0" />
+                <Button fx:id="bttnAtracao" layoutX="210.0" layoutY="283.0" mnemonicParsing="false" text="Registrar participação" onAction="#registrarParticipacao" />
+            </children>
+        </AnchorPane>
+    </children>
+</VBox>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="340.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.TelaCompraController">
+    <children>
+        <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="-1.0" prefWidth="-1.0" VBox.vgrow="ALWAYS">
+            <children>
+                <Label fx:id="labelPagamento" alignment="CENTER" layoutX="162.0" layoutY="68.0" style="&#10;" text="Escolha uma forma de pagamento:" textAlignment="CENTER" wrapText="false">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </Label>
+                <ChoiceBox fx:id="choicePagamento" layoutX="162.0" layoutY="150.0" prefHeight="25.0" prefWidth="277.0" />
+                <Button fx:id="btnConfirmarCompra" layoutX="245.0" layoutY="248.0" mnemonicParsing="false" text="Comprar ingresso" />
+            </children>
+        </AnchorPane>
+    </children>
+</VBox>
