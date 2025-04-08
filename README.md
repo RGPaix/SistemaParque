@@ -1,0 +1,1 @@
+Sistema de gerenciamento de um parque de diversões desenvolvido para a disciplina de Programação Orientada a Objetos com Banco de Dados do curso de Análise e Desenvolvimento de Sistemas da PUC Goiás. Semestre 01/2025.
