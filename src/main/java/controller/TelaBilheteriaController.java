@@ -50,16 +50,16 @@ public class TelaBilheteriaController {
         lviewBilheteria.setMouseTransparent(true);
         lviewBilheteria.setFocusTraversable(false);
 
-        // Aqui você carregaria do banco via DAO
+        // Carregar as bilheterias do banco via DAO
         bilheteriasDisponiveis = BilheteriaDAO.findAll();
 
-        // Preenche o ChoiceBox
+        // Preencher o ChoiceBox
         choiceBilheteria.setItems(FXCollections.observableArrayList(bilheteriasDisponiveis));
 
-        // Define o que acontece quando o usuário seleciona uma bilheteria
+        // Definir o que acontece quando o usuário seleciona uma bilheteria
         choiceBilheteria.setOnAction(event -> atualizarDetalhesBilheteria());
 
-        // Botão desabilitado até escolher algo válido
+        // Botão desabilitado até escolher opção válida
         bttnComprarIngresso.setDisable(true);
 
         // Comprar ingresso
