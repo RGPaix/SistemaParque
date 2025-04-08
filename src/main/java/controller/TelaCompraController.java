@@ -45,7 +45,7 @@ public class TelaCompraController {
     public void setBilheteria(Bilheteria bilheteria) {
         this.bilheteriaSelecionada = bilheteria;
 
-        // Se quiser mostrar info da bilheteria na label:
+        // Mostrar info da bilheteria na label:
         labelPagamento.setText("Pagamento para bilheteria " + bilheteria.getId() +
                 " - R$" + bilheteria.getPreco());
     }
@@ -96,7 +96,7 @@ public class TelaCompraController {
             stage.setScene(new Scene(root));
             stage.show();
 
-            // Fecha a janela atual, se quiser
+            // Fecha a janela atual
             Stage telaAtual = (Stage) btnConfirmarCompra.getScene().getWindow();
             telaAtual.close();
 
