@@ -25,6 +25,6 @@ public enum FormaPagamento {
         }
     }
     public String getNomePostgres() {
-        return this.name().toLowerCase(); // Se no banco está tudo em minúsculo: pix, credito, etc.
+        return this.name().toLowerCase(); // Pq no banco está tudo em minúsculo: pix, credito, etc.
     }
 }
