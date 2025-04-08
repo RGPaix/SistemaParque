@@ -35,7 +35,6 @@ public class TelaAtracaoController {
             alert.showAndWait();
 
             // Fecha a janela atual
-            // (só funciona se você tiver acesso à Stage atual)
             javafx.stage.Window window = choiceAtracao.getScene().getWindow();
             if (window instanceof Stage stage) {
                 stage.close();
